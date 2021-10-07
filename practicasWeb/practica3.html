@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	   <meta charset="utf-8">
+	   <title>Búsqueda</title>
+	</head>
+	<body>
+	   <from>
+		<table>
+		   <tr>
+		      
+		      <td><label>Nombre:</label></td>
+		      <td><input type="text" placeholder="Nombres" required>*</td>
+		   </tr>
+		   <tr>
+		      <td><label>Apellido Paterno:</label></td>
+		      <td><input type="text" placeholder="ApellidoPaterno" required>*</td>
+		   </tr>
+                   <tr>
+		      <td><label><label>Apellido Materno:</label></td>
+		      <td><input type="text" placeholder="ApellidoMaterno"></td>
+		   </tr>
+                   <tr>
+		      <td><label><label>Fecha de Nacimiento:</label></td>
+		      <td><input type="date" placeholder="FechaNacimiento" required>*</td>
+		   </tr>
+		   <tr>
+		      <td><label>Dirección:</label></td>
+		      <td><input type="text" placeholder="Dirección" required>*</td>
+		   </tr>
+		   <tr>
+		      <td><label>Telefono:</label></td>
+		      <td><input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Telefono" required>*</td>
+		   </tr>
+		   <tr>
+		      <td><label>Correo electronico:</label></td>
+		      <td><input type="email" placeholder="CorreoElectrinico" required>*</td>
+		   </tr>
+		      <tr>
+                           <td><label>Auto favorito</label></td>
+		           <td><input list="auto favorito"/>
+
+                           <datalist id="auto favorito">
+                               <option value="jetta">
+			       <option value="honda">
+			       <option value="pointer">
+			       <option value="nissan">
+			       <option value="volvo">
+			       <option value="chevy">
+                          </datalist>
+                      </td>
+                   </tr>
+		   <tr>
+			<td><input type="checkbox" id="chk" required>*</td>
+		        <td><label for="chk">He leido los terminos y condiciones</label></td>
+		   </tr>
+		   <tr>
+		      <td><input type="submit" value="Enviar"></td>
+		      <td><input type="reset" value="Limpiar"></td>
+		   </tr>
+		   
+
+		</table>
+		
+</from>
+	</body>
+</html>
